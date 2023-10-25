@@ -6,5 +6,12 @@ import { RouterOutlet } from '@angular/router';
   imports: [RouterOutlet],
   selector: 'app-root',
   template: ` <router-outlet></router-outlet> `,
+  styles: [
+    `
+      html {
+        scroll-behavior: smooth;
+      }
+    `,
+  ],
 })
 export class AppComponent {}
